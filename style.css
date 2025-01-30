@@ -662,14 +662,14 @@ body {
           animation-timing-function: linear;
 }
 
-/* @keyframes conti {
+@keyframes conti {
   from {
     transform: translateX(0%);
   }
   to {
     transform: translateX(-100%);
   }
-} */
+}
 
 #page7 {
   width: 100%;
