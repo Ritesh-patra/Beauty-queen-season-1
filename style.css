@@ -214,8 +214,8 @@ body {
   width: 10vw;
   height: 10vw;
   border-radius: 5px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 @-webkit-keyframes anime {
@@ -262,56 +262,6 @@ body {
 .mg3 {
   text-align: center;
   padding: 2vw;
-}
-
-#alpha {
-  width: 100%;
-  height: 12vh;
-  border: 2px solid black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 0vw 5vw;
-  gap: 1.5vw;
-}
-
-#alpha h2 {
-  font-size: 2vw;
-  text-transform: capitalize;
-  border-bottom: 2px solid black;
-  font-style: italic;
-  margin-right: 4vw;
-}
-
-#alpha h3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-transform: capitalize;
-  border: 1px solid rgba(0, 0, 0, 0.042);
-  border-radius: 50%;
-  padding: 10px;
-  font-size: 1vw;
-  font-family: giliS;
-  font-weight: 300;
-  -webkit-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  transition: all ease 0.3s;
-}
-#alpha h3:hover {
-  border: 1px solid rgb(7, 7, 7);
 }
 
 #center3 h3 {
@@ -1215,8 +1165,7 @@ body {
   width: 16vw;
   height: 16vw;
   border-radius: 5px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: contain;
 }
 
 @-webkit-keyframes anime {
@@ -1239,55 +1188,6 @@ body {
     -webkit-transform: translate(-100%);
             transform: translate(-100%);
   }
-}
-
-
-#alpha {
-  width: 100%;
-  height: 5vh;
-  border: 2px solid black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 0vw 0vw;
-}
-
-#alpha h2 {
-  font-size: 2vw;
-  text-transform: capitalize;
-  border-bottom: 2px solid black;
-  font-style: italic;
-}
-
-#alpha h3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-transform: capitalize;
-  border: 1px solid rgba(0, 0, 0, 0.042);
-  border-radius: 50%;
-  padding: .2vw;
-  font-size: 1.8vw;
-  font-family: giliS;
-  font-weight: 300;
-  -webkit-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  transition: all ease 0.3s;
-}
-#alpha h3:hover {
-  border: 1px solid rgb(7, 7, 7);
 }
 
   #part2 img {
